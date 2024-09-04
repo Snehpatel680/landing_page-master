@@ -1,0 +1,130 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #004080;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700 !important;
+  }
+  
+  /* Home Section */
+  .hero {
+    background-color: #003366;
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  .hero .btn {
+    margin-top: 1rem;
+  }
+  
+  /* About Us Section */
+  #about {
+    padding: 60px 0;
+  }
+  
+  #about p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 60px 0;
+  }
+  
+  .service-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .service-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  /* Past Projects Section */
+  #projects {
+    padding: 60px 0;
+  }
+  
+  .project-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .project-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .project-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 0;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.3);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #004080;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
