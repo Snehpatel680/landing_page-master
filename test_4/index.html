@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Freelancing Company</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CDN for icons -->
+    <!-- Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
         <a class="navbar-brand" href="#"><img id="company_logo" src="./img/Logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item"></li>
+                <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">Services</a>
@@ -49,6 +55,25 @@
         </div>
     </header>
 
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to Vidhya Tech Solution, where innovation meets passion! Founded in 2024, we are dedicated to
+                delivering top-notch services that enhance the lives of our customers. Our mission is to
+                "transform everyday experiences through cutting-edge technology”.
+            </p>
+
+            <p>
+                At the heart of our company is a team of talented professionals who share a commitment to quality,
+                creativity, and customer satisfaction. We believe in building lasting relationships with our clients,
+                understanding their needs, and exceeding their expectations.
+            </p>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section id="services">
         <div class="container">
@@ -60,7 +85,8 @@
                             <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>Custom Software Development</h3>
-                        <p>We develop tailored software solutions to meet your specific needs and enhance business efficiency.</p>
+                        <p>We develop tailored software solutions to meet your specific needs and enhance business
+                            efficiency.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -69,7 +95,8 @@
                             <i class="fa fa-laptop-code fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>Web Development</h3>
-                        <p>Our web development services ensure a seamless, responsive, and user-friendly online presence for your business.</p>
+                        <p>Our web development services ensure a seamless, responsive, and user-friendly online presence
+                            for your business.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -78,7 +105,8 @@
                             <i class="fa fa-mobile-alt fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>Mobile App Development</h3>
-                        <p>We create engaging mobile apps for iOS and Android to help you connect with your users on the go.</p>
+                        <p>We create engaging mobile apps for iOS and Android to help you connect with your users on the
+                            go.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -87,7 +115,8 @@
                             <i class="fa fa-lightbulb fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>Consulting</h3>
-                        <p>Our consulting services provide expert guidance to help you make informed decisions and drive your projects to success.</p>
+                        <p>Our consulting services provide expert guidance to help you make informed decisions and drive
+                            your projects to success.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -96,7 +125,8 @@
                             <i class="fa fa-plug fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>System Integration</h3>
-                        <p>We integrate disparate systems and technologies to streamline your operations and improve efficiency.</p>
+                        <p>We integrate disparate systems and technologies to streamline your operations and improve
+                            efficiency.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -105,7 +135,8 @@
                             <i class="fa fa-tools fa-3x" aria-hidden="true"></i>
                         </div>
                         <h3>Maintenance and Support</h3>
-                        <p>Our ongoing maintenance and support services ensure that your systems run smoothly and stay up-to-date.</p>
+                        <p>Our ongoing maintenance and support services ensure that your systems run smoothly and stay
+                            up-to-date.</p>
                     </div>
                 </div>
             </div>
@@ -173,12 +204,13 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
             <h2 class="text-center">Contact Us</h2>
-            <form id="form" method="post" action="https://script.google.com/macros/s/AKfycbxC1_RzO5cgxSJQR8GA5DMp3ycQpxSaN7LfgQXCjELkrckIsovs6WTp6io4EU9aZehl/exec">
+            <form id="form" method="post"
+                action="https://script.google.com/macros/s/AKfycbxC1_RzO5cgxSJQR8GA5DMp3ycQpxSaN7LfgQXCjELkrckIsovs6WTp6io4EU9aZehl/exec">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
@@ -189,7 +221,8 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    <textarea name="message" class="form-control" id="message" rows="4"
+                        placeholder="Your Message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send</button>
             </form>
@@ -207,4 +240,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
