@@ -1,82 +1,79 @@
 /* Navigation Bar Styles */
 .navbar {
-    padding: 0.8rem 1.5rem; /* Adjust padding for better spacing */
-    background-color: #ffffff; /* White background for navbar */
-    border-bottom: 1px solid #dcdcdc; /* Light Gray border at the bottom */
+    padding: 0.8rem 1.5rem; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid #dcdcdc;
 }
 
 .navbar-brand {
-    color: #003366; /* Dark Blue for brand name */
-    font-weight: bold; /* Bold font for brand name */
+    color: #003366; 
+    font-weight: bold; 
 }
 
 .navbar-brand:hover {
-    color: #0066cc; /* Bright Blue on hover */
+    color: #0066cc; 
 }
 
 .navbar-nav .nav-link {
-    color: #333333; /* Dark Gray text color */
-    font-weight: 500; /* Slightly bolder font weight */
+    color: #333333; 
+    font-weight: 500; 
 }
 
 .navbar-nav .nav-link:hover {
-    color: #0066cc; /* Bright Blue on hover */
+    color: #0066cc; 
 }
 
 .navbar-toggler {
-    border: none; /* Remove default border */
+    border: none; 
 }
 
 .navbar-toggler-icon {
-    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23003366" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E'); /* Dark Blue lines for the toggler */
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23003366" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E'); 
 }
 
 .navbar-light .navbar-nav .nav-item {
-    margin-left: 1rem; /* Spacing between nav items */
+    margin-left: 1rem; 
 }
 
 /* Responsive Adjustments */
 @media (max-width: 500px) {
     .navbar-nav {
-        text-align: center; /* Center align nav items on smaller screens */
+        text-align: center; 
     }
 
     .navbar-nav .nav-item {
-        margin-left: 0; /* Remove left margin on small screens */
-        margin-bottom: 0.5rem; /* Add bottom margin for spacing */
+        margin-left: 0;
+        margin-bottom: 0.5rem;
     }
 }
 
-#company_logo{
-    width: 18%;
-    /* height: 100%; */
-}
+
 
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to right, #003366, #0066cc); /* Dark Blue to Bright Blue gradient */
-    color: #ffffff; /* White text for contrast */
+    background: linear-gradient(to right, #003366, #0066cc);
+    color: #ffffff; 
     text-align: center;
-    padding: 100px 0; /* Adjust padding as needed */
+    padding: 100px 0;
 }
 
 .hero h1 {
-    font-size: 3rem; /* Larger font size for the main heading */
+    font-size: 3rem;
 }
 
 .hero p {
-    font-size: 1.5rem; /* Slightly larger font size for the subtitle */
+    font-size: 1.5rem; 
 }
 
 .hero .btn-light {
-    color: #003366; /* Dark Blue text color */
-    border-color: #003366; /* Dark Blue border color */
+    color: #003366;
+    border-color: #003366;
 }
 
 .hero .btn-light:hover {
-    background-color: #0066cc; /* Bright Blue background on hover */
-    color: #ffffff; /* White text on hover */
+    background-color: #0066cc;
+    color: #ffffff;
 }
 
 
@@ -84,72 +81,72 @@
 
 /* Services Section Styles */
 #services {
-    background: #f4f4f4; /* Light Gray background */
-    color: #333333; /* Dark Gray text */
-    padding: 60px 0; /* Padding for top and bottom spacing */
+    background: #f4f4f4;
+    color: #333333;
+    padding: 60px 0;
 }
 
 #services h2 {
-    color: #003366; /* Dark Blue heading */
-    margin-bottom: 50px; /* Spacing below the heading */
-    font-size: 2.5rem; /* Font size for emphasis */
-    text-align: center; /* Center align heading */
+    color: #003366;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .row {
-    display: flex; /* Flexbox for row */
-    flex-wrap: wrap; /* Wrap items to next line if necessary */
-    gap: 30px; /* Spacing between service items */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
 }
 
 .col-md-4 {
-    flex: 1 1 calc(33.333% - 30px); /* Flex basis with gap adjustment */
-    display: flex; /* Flexbox for column */
+    flex: 1 1 calc(33.333% - 30px);
+    display: flex;
 }
 
 .service-item {
-    background: #ffffff; /* White background for service items */
-    border: 1px solid #e0e0e0; /* Light Gray border */
-    border-radius: 8px; /* Rounded corners */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-    padding: 20px; /* Padding inside service items */
-    text-align: center; /* Center align text */
-    display: flex; /* Flexbox for service item */
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Space between items */
+    background: #ffffff;
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 1em;
-    min-height: 350px; /* Set a minimum height for all items */
-    height: 100%; /* Full height of column */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    min-height: 350px;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .service-item:hover {
-    transform: translateY(-4px); /* Slight lift effect */
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* More visible shadow */
-    border-color: #0066cc; /* Highlight border color on hover */
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    border-color: #0066cc; 
 }
 
 .service-icon i {
-    color: #0066cc; /* Bright Blue icon color */
-    transition: color 0.3s ease; /* Smooth transition for icon color */
+    color: #0066cc; 
+    transition: color 0.3s ease;
 }
 
 .service-item:hover .service-icon i {
-    color: #003366; /* Dark Blue icon color on hover */
+    color: #003366;
 }
 
 .service-item h3 {
-    color: #003366; /* Dark Blue heading */
-    margin-top: 20px; /* Spacing above the heading */
-    font-size: 1.75rem; /* Font size for emphasis */
+    color: #003366;
+    margin-top: 20px;
+    font-size: 1.75rem;
 }
 
 .service-item p {
-    color: #666666; /* Medium Gray text color */
-    font-size: 1rem; /* Font size for readability */
-    line-height: 1.6; /* Improve readability with line height */
-    margin-top: 10px; /* Spacing above the paragraph */
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
 }
 
 
@@ -160,31 +157,31 @@
 
 /* Projects Section Styles */
 #portfolio {
-    background: #f4f4f4; /* Light Gray background */
-    color: #333333; /* Dark Gray text */
-    padding: 60px 0; /* Padding for top and bottom spacing */
+    background: #f4f4f4;
+    color: #333333;
+    padding: 60px 0;
 }
 
 #portfolio h2 {
-    color: #003366; /* Dark Blue heading */
-    margin-bottom: 50px; /* Spacing below the heading */
-    font-size: 2.5rem; /* Font size for emphasis */
-    text-align: center; /* Center align heading */
+    color: #003366;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .row {
-    display: flex; /* Flexbox for row */
-    flex-wrap: wrap; /* Wrap items to next line if necessary */
-    gap: 30px; /* Spacing between project items */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
 .col-md-4 {
-    flex: 1 1 calc(33.333% - 30px); /* Flex basis with gap adjustment */
-    display: flex; /* Flexbox for column */
-    align-items: stretch; /* Stretch items to fill column height */
-    min-width: 300px; /* Minimum width for each column */
+    flex: 1 1 calc(33.333% - 30px);
+    display: flex;
+    align-items: stretch;
+    min-width: 300px;
 }
 
 .project-item {
@@ -226,24 +223,6 @@
     font-size: 1rem; /* Font size for readability */
     line-height: 1.6; /* Improve readability with line height */
     margin-top: 10px; /* Spacing above the paragraph */
-}
-
-.project-item #project_1_img{
-    background-image: url('./img/project_1.png');
-    background-size: cover;
-
-}
-
-.project-item #project_2_img{
-    background-image: url('./img/project_2.png');
-    background-size: cover;
-}
-
-.project-item #project_3_img{
-    background-image: url('./img/project_3.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /* Responsive Adjustments */
@@ -319,7 +298,7 @@
 
 /* Contact Section */
 #contact {
-    background: #ffffff; /* White background */
+    background: #ffffff;
     color: #333333; /* Dark Gray text */
 }
 
@@ -343,11 +322,30 @@ form .btn-primary:hover {
     background-color: #0044cc; /* Darker Blue on hover */
 }
 
-iframe {
-    width: 100%;
-    height: 800px;
-    border: 0;
+
+.google-form-container {
+    overflow: hidden; /* Ensures no overflow from the container */
+    max-width: 100%; /* Limits the container's width */
 }
+
+.google-form {
+    width: 100%; /* Makes the iframe responsive */
+    max-width: 100%; /* Prevents it from exceeding the container's width */
+    height: 800px; /* Adjust this height as needed */
+    border: none; /* Optional: remove the default border */
+}
+
+@media (max-width: 400px) {
+    .google-form{
+        height: 1000px;
+    }
+}
+
+
+
+
+
+
 
 
 /* Footer */
@@ -355,6 +353,8 @@ footer {
     background-color: #003366; /* Dark Blue footer */
     color: #ffffff; /* White text in footer */
 }
+
+
 
 /* General Styles */
 body {
@@ -368,9 +368,10 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #0066cc; /* Bright Blue text on hover */
+    color: #0066cc;
 }
 
+  
 /* Responsive Adjustments */
 @media (max-width: 767.98px) {
     .hero {
